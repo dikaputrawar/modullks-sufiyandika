@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    align-items: baseline;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.details h2 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.details p {
+    margin: 0;
+    font-size: 12px;
+    color: gray;
+}
+
+/* Screen 1: Daftar Percakapan */
+#dialog-list {
+    padding: 10px;
+    width: 360px;
+    align-items: center;
+}
+
+.conversation {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+#new-message {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+}
+
+/* Screen 2: Chat dengan Pengguna */
+#chat-screen {
+    display: none; /* Hide this screen by default */
+}
+
+.messages {
+    padding: 10px;
+    background-color: #f1f1f1;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.message {
+    max-width: 70%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 20px;
+}
+
+.received {
+    background-color: #e5e5e5;
+    text-align: left;
+}
+
+.sent {
+    background-color: #4CAF50;
+    color: white;
+    text-align: right;
+    margin-left: auto;
+}
+
+footer {
+    display: flex;
+    padding: 10px;
+    background-color: #ddd;
+}
+
+footer input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messenger App</title>
+    <link rel="stylesheet" href="css/message.css">
+</head>
+<body>
+    <!-- Screen 1: Daftar Percakapan -->
+    <div id="dialog-list">
+        <header>
+            <h1>Messenger</h1>
+            <button id="new-message">+</button>
+        </header>
+        <div class="conversation">
+            <img src="asset/dikaselfie.png" alt="Avatar" class="avatar">
+            <div class="details">
+                <h2>John Doe</h2>
+                <p>Hey, are you there?</p>
+            </div>
+        </div>
+        <div class="conversation">
+            <img src="asset/dikaaaa.jpg" alt="Avatar" class="avatar">
+            <div class="details">
+                <h2>Jane Smith</h2>
+                <p>Let's meet at 5 PM</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Screen 2: Chat dengan Pengguna -->
+    <div id="chat-screen">
+        <header>
+            <img src="asset/dikaselfie.png" alt="Avatar" class="avatar">
+            <h2>John Doe</h2>
+            <button class="menu">⋮</button>
+        </header>
+        <div class="messages">
+            <div class="message received">
+                <p>Hello!</p>
+            </div>
+            <div class="message sent">
+                <p>Hi, how are you?</p>
+            </div>
+        </div>
+        <footer>
+            <input type="text" placeholder="Type your message">
+            <button id="send">Send</button>
+        </footer>
+    </div>
+    <script src="script.js/massage.js"></script>
+</body>
+</html>

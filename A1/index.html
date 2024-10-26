@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">MyLogo</a>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li class="dropdown">
+                <a href="#">Services</a>
+                <ul class="dropdown-content">
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">UI/UX Design</a></li>
+                    <li><a href="#">Graphic Design</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Build Your Dream Website</h1>
+            <p>We bring your vision to life with stunning design and seamless functionality.</p>
+        </div>
+
+        <div class="container">
+            <!-- Get Started Button -->
+            <button class="cta-button" onclick="startLoading()">Get Started</button>
+    
+            <!-- Loading Animation -->
+            <div class="loader" id="loadingAnimation"></div>
+        </div>
+    
+
+    </section>
+    <script src="script.js/index.js"></script> <!-- Tautan ke file JavaScript eksternal -->
+</body>
+</html>
